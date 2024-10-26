@@ -4,9 +4,9 @@
 ## Creador: Edgar Torres
 ## Fecha: 26 de Octubre 2024
 ## Descripcion: Proyecto en Streamlit
-Se replico un modelo de deteccion de fraudes en transacciones de una terminal usando redes neuronales con el Modulo de Keras de Tensorflow
+Se replico un modelo de deteccion de fraudes en transacciones de una terminal bancaria usando redes neuronales con el Modulo de Keras de Tensorflow
 ## Problema que se desea resolver
-Los fraudes son un problema muy comun que genera grandes perdidas a los comercios diariamente, con este modelo se intenta predecir si las transacciones de una terminal son fraudulentas para poder detenerlas antes de que se genere una perdida al comecio.
+Los fraudes son un problema muy comun que genera grandes perdidas a los comercios diariamente, con este modelo se intenta predecir si las transacciones de una terminal bancaria son fraudulentas para poder detenerlas antes de que se genere una perdida monetaria al comecio.
 ## Explicar qué tecnología se usarán
 Para la creacion del modelo se usaron distintos programas:
 - Google Colab
@@ -15,7 +15,7 @@ Para la creacion del modelo se usaron distintos programas:
 - Streamlit
 - El programa se creo usando el Modulo de Keras de Tensorflow 
 ## Objetivos
-Crear un modelo que pueda predecir las transacciones fraudulentas de una terminal utilizando un modelo de redes neutonales y adaptarlo para su uso en Streamlit
+Crear un modelo que pueda predecir las transacciones fraudulentas de una terminal utilizando un modelo de redes neuronales y adaptarlo para su uso en Streamlit
 
 ## Descripción de cómo se obtuvieron los datos.
 La base de datos se obtuvo de: https://github.com/Fraud-Detection-Handbook/simulated-data-raw/tree/main/data.
