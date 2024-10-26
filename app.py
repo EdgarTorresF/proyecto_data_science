@@ -21,7 +21,8 @@ from sklearn.preprocessing import StandardScaler
 
 st.title("Modelo de Deteccion de Fraudes con Redes Neuronales en Streamlit")
 
-transactions_df = pd.read_feather("combined_file.feather")
+file_path = '/Users/edgartorres/Documents/GitHub/proyecto_data_science/combined_file.feather'
+transactions_df = pd.read_feather(file_path)
 
 st.header("Muestra aleatoria de algunos elementos de la base de datos")
 st.write(transactions_df.sample(10, random_state=0))
