@@ -19,6 +19,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
+# Hola
 st.title("Modelo de Deteccion de Fraudes con Redes Neuronales en Streamlit")
 
 file_path = '/Users/edgartorres/Documents/GitHub/proyecto_data_science/combined_file.feather'
