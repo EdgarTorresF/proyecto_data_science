@@ -1,4 +1,5 @@
-Plotly
+streamlit
+plotly
 matplotlib
 numpy
 tensorflow
